@@ -1,7 +1,7 @@
 {
   "name": "envy-theme",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Envy is a simple dark theme for Atom.",
   "repository": "https://github.com/carloselias/envy-theme",

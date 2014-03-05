@@ -1,10 +1,22 @@
 .editor, .editor .gutter {
   background-color: #1D1D1D;
-  color: #cfcfcf;
+  color: #ccc;
 }
 
 .editor.is-focused .cursor {
   border-color: #A7A7A7;
+}
+
+.editor .indent-guide, .invisible-character {
+  color: #555;
+}
+
+.editor .curly {
+  color: #CF6A4C;
+}
+
+.editor .line, .editor .line-number {
+  line-height: 1.4;
 }
 
 .editor.is-focused .selection .region {
@@ -13,6 +25,7 @@
 
 .editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
   background-color: rgba(255, 255, 255, 0.03);
+  -webkit-transform: translateX();
 }
 
 .comment {
@@ -55,7 +68,7 @@
 }
 
 .invalid.illegal {
-  color: #F8F8F8;
+  color: #CCC;
   background-color: rgba(86, 45, 86, 0.75);
 }
 
@@ -158,22 +171,22 @@
 
 .meta.diff, .meta.diff.header, .meta.separator {
   font-style: italic;
-  color: #F8F8F8;
+  color: #DDD;
   background-color: #0E2231;
 }
 
 .markup.deleted {
-  color: #F8F8F8;
+  color: #DDD;
   background-color: #420E09;
 }
 
 .markup.changed {
-  color: #F8F8F8;
+  color: #DDD;
   background-color: #4A410D;
 }
 
 .markup.inserted {
-  color: #F8F8F8;
+  color: #DDD;
   background-color: #253B22;
 }
 
