@@ -1,12 +1,27 @@
 {
   "name": "envy-theme",
   "theme": "syntax",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "Envy is a simple dark theme for Atom.",
-  "repository": "https://github.com/carloselias/envy-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carloselias/envy-theme"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
-  }
+  },
+  "readme": "# envy-theme\n\nEnvy is a simple dark theme for Atom.\n\n![Image](http://f.cl.ly/items/1C0J0v3Y3N142Q2P2E2n/envy-ss.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/carloselias/envy-theme/issues"
+  },
+  "homepage": "https://github.com/carloselias/envy-theme",
+  "_id": "envy-theme@0.1.2",
+  "dist": {
+    "shasum": "96b206c2b39db9883205cbc461b3f09eae387299"
+  },
+  "_resolved": "/var/folders/m3/24ly2vzd6vzgk2x_kqv5wqzr0000gn/T/d-11459-2604-zwygm7/package.tgz",
+  "_from": "/var/folders/m3/24ly2vzd6vzgk2x_kqv5wqzr0000gn/T/d-11459-2604-zwygm7/package.tgz"
 }
